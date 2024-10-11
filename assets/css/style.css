@@ -1,0 +1,145 @@
+body{
+    font-family: 'Inter 18pt';
+    margin: 0;
+   
+   
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+   
+}
+ul,ol{
+    margin: 0;
+}
+.align-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.icon li a {
+    width: 36px;
+    height: 36px;
+}
+.icon li a i{
+    height: 36px;
+    width: 36px;
+    color: white;
+    background-color:#396CF0;
+    text-align: center;
+    border-radius: 30px !important;
+    font-size: 22px;   
+    margin-left: 10px;
+    text-align: center;
+    line-height: 36px;
+}    
+.img img{
+    margin-left: 10px;
+}  
+
+
+
+    /*about start  */
+
+.about{
+    padding: 100px 0px;
+}
+.about .about-content{
+    padding-top: 50px;
+}
+.about .img img{
+    width:474px;
+    height: 648px;
+}
+
+.about .about-content button{
+    color:#396CF0; 
+    border: none;
+    font-size: 12px;
+    font-weight: 400px;
+    
+}
+ .about .about-info button{
+    border: solid 1px black;
+    font-size: 18px;
+    font-weight: 600px;
+    padding: 2px;
+    margin-top: 10px;
+
+
+}
+.about-content h1{
+   color: black;
+   margin-bottom: 10px;
+
+   
+}
+.about .about-content p{
+    font-size: 16px;
+    line-height: 19.36px;
+    margin-bottom: 30px;
+}
+/* about end */
+.contacts{
+    text-align: center;
+    padding: 50px 0;
+}
+.contacts .content .title button{
+    color: #396CF0;
+    font-size: 11px;
+    font-weight: 600px;
+    border: none;
+}
+.contacts .content .title h1{
+    font-size: 28px;
+    font-weight: 600;
+    color: #000000;
+}
+.contacts .content .title p{
+    font-family: 16px;
+    font-weight: 400;
+}
+/* banner srat */
+.banner{
+    background-image: url('../img/1694066782705\ 1.png');
+    background-size: cover;
+    padding: 539px 0px 150px 0px;
+    position: relative;
+
+}
+.banerr::after{
+    position: absolute;
+    content: '';
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-color: #3c4858c7;
+    top: 0;
+    z-index: 1;
+
+}
+.banner-content{
+    z-index: 11;
+}
+.form{
+    background-color:#ffffff65 ;
+}
+.form button{
+    width: 100px;
+}
+.form input{
+    width: 250px;
+}
+
+
+/* baner and */
+
